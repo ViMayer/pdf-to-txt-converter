@@ -88,7 +88,7 @@ const App = () => {
           <div className=" w-full flex justify-center items-center p-1 mt-2">
             <button className="
              border-[1px] border-[rgb(0,0,0,0.1)] text-[rgb(0,0,0,0.8)] text-[0.95rem]
-             duration-300 ease-in-out bg-gray-200 hover:bg-[rgb(219,221,245)] hover:border-[rgb(0,0,0,0.2)] hover:text-[rgb(0,0,0,0.7)] mx-auto w-[10rem] rounded-[5px] h-[2rem]" onClick={() => { downloadTextAsFile(text, "pdfintext") }}>BAIXAR</button>
+             duration-300 ease-in-out bg-gray-200 hover:bg-[rgb(219,221,245)] hover:border-[rgb(0,0,0,0.2)] hover:text-[rgb(0,0,0,0.7)] mx-auto w-[10rem] rounded-[5px] h-[2rem]" onClick={() => { downloadTextAsFile(text, "pdfintext") }}>DOWNLOAD</button>
           </div>
 
         </div>
